@@ -49,6 +49,25 @@ var books = [{"book":"EVANGELIUM SECUNDUM MATTHAEUM", "chapters" : [{"chapter":"
         {"verse":"21", "start":"214.3", "end": "220.2", "text":"Qui surgens accepit puerum et matrem eius et venit in terram Israel."},
         {"verse":"22", "start":"220.5", "end": "233", "text":"Audiens autem quia Archelaus regnaret in Iudaea pro Herode patre suo, timuit illuc ire; et admonitus in somnis, secessit in partes Galilaeae"},
         {"verse":"23", "start":"233", "end": "242.7", "text":"et veniens habitavit in civitate, quae vocatur Nazareth, ut adimpleretur, quod dictum est per Prophetas: \"Nazaraeus vocabitur\"."}
+      ]},
+      {"chapter":"3", "audio":"matt03_extreme.mp3", "verses":[
+        {"verse":"1", "start":"0  ", "end": "6", "text":"In diebus autem illis venit Ioannes Baptista praedicans in deserto Iudaeae"},
+        {"verse":"2", "start":"6", "end": "11.1", "text":"et dicens: \"Paenitentiam agite; appropinquavit enim regnum caelorum\"."},
+        {"verse":"3", "start":"11.5", "end": "21", "text":"Hic est enim, qui dictus est per Isaiam prophetam dicentem: \"Vox clamantis in deserto: \"Parate viam Domini, rectas facite semitas eius!\"\"."},
+        {"verse":"4", "start":"22", "end": "34", "text":"Ipse autem Ioannes habebat vestimentum de pilis cameli et zonam pelliceam circa lumbos suos; esca autem eius erat locustae et mel silvestre."},
+        {"verse":"5", "start":"34.5", "end": "40.9", "text":"Tunc exibat ad eum Hierosolyma et omnis Iudaea et omnis regio circa Iordanem,"},
+        {"verse":"6", "start":"40.9", "end": "46.3", "text":"et baptizabantur in Iordane flumine ab eo, confitentes peccata sua."},
+        {"verse":"7", "start":"47", "end": "60.3", "text":"Videns autem multos pharisaeorum et sadducaeorum venientes ad baptismum suum, dixit eis: \"Progenies viperarum, quis demonstravit vobis fugere a futura ira?"},
+        {"verse":"8", "start":"60.4", "end": "64", "text":"Facite ergo fructum dignum paenitentiae"},
+        {"verse":"9", "start":"63.7", "end": "76.2", "text":"et ne velitis dicere intra vos: \"Patrem habemus Abraham\"; dico enim vobis quoniam potest Deus de lapidibus istis suscitare Abrahae filios."},
+        {"verse":"10", "start":"76", "end": "88", "text":"Iam enim securis ad radicem arborum posita est; omnis ergo arbor, quae non facit fructum bonum, exciditur et in ignem mittitur."},
+        {"verse":"11", "start":"87.8", "end": "104", "text":"Ego quidem vos baptizo in aqua in paenitentiam; qui autem post me venturus est, fortior me est, cuius non sum dignus calceamenta portare; ipse vos baptizabit in Spiritu Sancto et igni,"},
+        {"verse":"12", "start":"103.8", "end": "116.2", "text":"cuius ventilabrum in manu sua, et permundabit aream suam et congregabit triticum suum in horreum, paleas autem comburet igni inexstinguibili\"."},
+        {"verse":"13", "start":"118.5", "end": "125.2", "text":"Tunc venit Iesus a Galilaea in Iordanem ad Ioannem, ut baptizaretur ab eo."},
+        {"verse":"14", "start":"124.7", "end": "132.7", "text":"Ioannes autem prohibebat eum dicens: \"Ego a te debeo baptizari, et tu venis ad me?\"."},
+        {"verse":"15", "start":"132.8", "end": "144", "text":"Respondens autem Iesus dixit ei: “Sine modo, sic enim decet nos implere omnem iustitiam”. Tunc dimittit eum."},
+        {"verse":"16", "start":"144", "end": "157.5", "text":"Baptizatus autem Iesus, confestim ascendit de aqua; et ecce aperti sunt ei caeli, et vidit Spiritum Dei descendentem sicut columbam et venientem super se."},
+        {"verse":"17", "start":"157.5", "end": "164.7", "text":"Et ecce vox de caelis dicens: \"Hic est Filius meus dilectus, in quo mihi complacui\"."}
       ]}
       ]
     }
