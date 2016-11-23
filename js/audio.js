@@ -38,6 +38,7 @@
       links += "Capitulum " + chapters[i].chapter + "</span> ";
       links += "</div>";
 
+      links += "<div id=\"chapter" + chapters[i].chapter + "\" style=\"display: none\">";
       for (var k=0; k < verses.length; k++) {
         //verse
         links += "<div><span onclick=\"playSnippet(this.id, this.innerHTML, ";
@@ -48,13 +49,65 @@
         links += verses[k].text;
         links += "</div>";
       }
+      links += "</div>";
 
     }
 
     document.getElementById("verses").innerHTML = links;
   }
 
-  function writeVerses() {
+  function writeChapterLinks() {
+    var links = "";
+    //Book name
+    links += books[0].book + "<br>";
+
+    var chapters = books[0].chapters;
+
+    for (var i=0; i < chapters.length; i++) {
+      //var verses = chapters[i].verses;
+      //links += "<span onclick=writeVerses(this.innerHTML)>" + chapters[i].chapter + "</span> ";
+      links += "<span onclick=\"writeVerses(this.innerHTML)\">" + chapters[i].chapter + "</span> ";
+    }
+
+    // <span onclick="writeVerses(3)">3</span>
+
+    document.getElementById("chapters").innerHTML = links;
+  }
+
+  function writeVerses(chapter) {
+    writeChapterLinks();
+
+    var currentText = document.getElementById("verses").innerHTML;
+
+    document.getElementById("verses").innerHTML + "<br>" + chapter;
+
+     var links = "";
+
+     var chapters = books[0].chapters;
+
+    //for (var i=0; i < chapters.length; i++) {
+    var chapterIndex = chapter-1;
+      var verses = chapters[chapterIndex].verses;
+      //links += chapters[i].chapter;
+      for (var k=0; k < verses.length; k++) {
+        links += "<div><span onclick=\"playSnippet(this.id, this.innerHTML, ";
+        links += verses[k].start + ", ";
+        links += verses[k].end + ")\" size=\"60\" id=\"" + chapters[chapterIndex].audio + "\">";
+        links += chapters[chapterIndex].chapter + ":";
+        links += verses[k].verse + "</span> ";
+        links += verses[k].text;
+        links += "</div>";
+      }
+
+    //}
+
+
+    document.getElementById("verses").innerHTML = links;
+
+  }
+
+
+  /*function writeVerses() {
     var links = "";
 
     for (var i=0; i < chapters.length; i++) {
@@ -76,7 +129,7 @@
     document.getElementById("verses").innerHTML = links;
 
 
-  }
+  }*/
 
     var audioElm = document.getElementById("audio1"); // Audio element
     var ratedisplay = document.getElementById("rate"); // Rate display area

@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/audio.css">
   </head>
-  <body onload="writeBook()">
+  <body onload="writeChapterLinks()">
     <div>
       <audio controls="controls" style="width:50%" id="audio1">Canvas not supported</audio>
       <div id="nowPlaying">&nbsp;</div>
@@ -29,6 +29,8 @@
     Search:
     <input id="search" type="text" style="width:70%">
     <button onclick="search()">Submit</button>
+    <hr>
+    <div id="chapters"></div>
     <hr>
     <div id="verses"></div>
     <script src="js/matt.js"></script>
