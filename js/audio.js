@@ -41,9 +41,13 @@
       links += "<div id=\"chapter" + chapters[i].chapter + "\" style=\"display: none\">";
       for (var k=0; k < verses.length; k++) {
         //verse
-        links += "<div><span onclick=\"playSnippet(this.id, this.innerHTML, ";
+        links += "<div";
+        links += ">";
+        links += "<span";
+        links += " onclick=\"playSnippet(this.id, this.innerHTML, ";
         links += verses[k].start + ", ";
-        links += verses[k].end + ")\" size=\"60\" id=\"" + chapters[i].audio + "\">";
+        links += verses[k].end + ")\" size=\"60\" id=\"" + chapters[i].audio + "\"";
+        links += ">";
         links += chapters[i].chapter + ":";
         links += verses[k].verse + "</span> ";
         links += verses[k].text;
