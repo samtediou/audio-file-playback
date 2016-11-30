@@ -145,7 +145,43 @@ var books = [{"book":"EVANGELIUM SECUNDUM MATTHAEUM", "chapters" : [{"chapter":"
         {"verse":"46", "start":"401", "end": "410", "text":"Si enim dilexeritis eos, qui vos diligunt, quam mercedem habetis? Nonne et publicani hoc faciunt?"},
         {"verse":"47", "start":"409.2", "end": "418", "text":"Et si salutaveritis fratres vestros tantum, quid amplius facitis? Nonne et ethnici hoc faciunt?"},
         {"verse":"48", "start":"417.7", "end": "424", "text":"Estote ergo vos perfecti, sicut Pater vester caelestis perfectus est."}
-       ]}
+      ]},
+      {"chapter":"6", "audio":"matt06_extreme.mp3", "verses":[
+        {"verse":"1", "start":"0  ", "end": "11", "text":"Attendite, ne iustitiam vestram faciatis coram hominibus, ut vi deamini ab eis; alioquin mercedem non habetis apud Patrem vestrum, qui in caelis est."},
+        {"verse":"2", "start":"11", "end": "26.6", "text":"Cum ergo facies eleemosynam, noli tuba canere ante te, sicut hypocritae faciunt in synagogis et in vicis, ut honorificentur ab hominibus. Amen dico vobis: Receperunt mercedem suam."},
+        {"verse":"3", "start":"26.8", "end": "33.5", "text":"Te autem faciente eleemosynam, nesciat sinistra tua quid faciat dextera tua,"},
+        {"verse":"4", "start":"33.3", "end": "41.8", "text":"ut sit eleemosyna tua in abscondito, et Pater tuus, qui videt in abscondito, reddet tibi."},
+        {"verse":"5", "start":"42.2", "end": "56", "text":"Et cum oratis, non eritis sicut hypocritae, qui amant in synagogis et in angulis platearum stantes orare, ut videantur ab hominibus. Amen dico vobis: Receperunt mercedem suam."},
+        {"verse":"6", "start":"56", "end": "71.6", "text":"Tu autem cum orabis, intra in cubiculum tuum et, clauso ostio tuo, ora Patrem tuum, qui est in abscondito; et Pater tuus, qui videt in abscondito, reddet tibi."},
+        {"verse":"7", "start":"72", "end": "80", "text":"Orantes autem nolite multum loqui sicut ethnici; putant enim quia in multiloquio suo exaudiantur."},
+        {"verse":"8", "start":"80.2", "end": "90", "text":"Nolite ergo assimilari eis; scit enim Pater vester, quibus opus sit vobis, antequam petatis eum."},
+        {"verse":"9", "start":"90", "end": "98.4", "text":"Sic ergo vos orabitis: Pater noster, qui es in caelis, sanctificetur nomen tuum,"},
+        {"verse":"10", "start":"98.4", "end": "104.5", "text":"adveniat regnum tuum, fiat voluntas tua, sicut in caelo, et in terra."},
+        {"verse":"11", "start":"104.5", "end": "109", "text":"Panem nostrum supersubstantialem da nobis hodie;"},
+        {"verse":"12", "start":"108.8", "end": "114.3", "text":"et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris;"},
+        {"verse":"13", "start":"114.3", "end": "120", "text":"et ne inducas nos in tentationem, sed libera nos a Malo."},
+        {"verse":"14", "start":"120.3", "end": "128.2", "text":"Si enim dimiseritis hominibus peccata eorum, dimittet et vobis Pater vester caelestis;"},
+        {"verse":"15", "start":"128.2", "end": "134.6", "text":"si autem non dimiseritis hominibus, nec Pater vester dimittet peccata vestra."},
+        {"verse":"16", "start":"134.6", "end": "148.3", "text":"Cum autem ieiunatis, nolite fieri sicut hypocritae tristes; demoliuntur enim facies suas, ut pareant hominibus ieiunantes. Amen dico vobis: Receperunt mercedem suam."},
+        {"verse":"17", "start":"148.3", "end": "154", "text":"Tu autem cum ieiunas, unge caput tuum et faciem tuam lava,"},
+        {"verse":"18", "start":"154", "end": "164.8", "text":"ne videaris hominibus ieiunans sed Patri tuo, qui est in abscondito; et Pater tuus, qui videt in abscondito, reddet tibi."},
+        {"verse":"19", "start":"166", "end": "175.4", "text":"Nolite thesaurizare vobis thesauros in terra, ubi aerugo et tinea demolitur, et ubi fures effodiunt et furantur;"},
+        {"verse":"20", "start":"177", "end": "187.2", "text":"thesaurizate autem vobis thesauros in caelo, ubi neque aerugo neque tinea demolitur, et ubi fures non effodiunt nec furantur;"},
+        {"verse":"21", "start":"187.2", "end": "192.4", "text":"ubi enim est thesaurus tuus, ibi erit et cor tuum."},
+        {"verse":"22", "start":"193.7", "end": "203.3", "text":"Lucerna corporis est oculus. Si ergo fuerit oculus tuus simplex, totum corpus tuum lucidum erit;"},
+        {"verse":"23", "start":"204.3", "end": "219.5", "text":"si autem oculus tuus nequam fuerit, totum corpus tuum tenebrosum erit. Si ergo lumen, quod in te est, tenebrae sunt, tenebrae quantae erunt!"},
+        {"verse":"24", "start":"222", "end": "237.3", "text":"Nemo potest duobus dominis servire: aut enim unum odio habebit et alterum diliget, aut unum sustinebit et alterum contemnet; non potestis Deo servire et mammonae."},
+        {"verse":"25", "start":"236", "end": "252.5", "text":"Ideo dico vobis: Ne solliciti sitis animae vestrae quid manducetis, neque corpori vestro quid induamini. Nonne anima plus est quam esca, et corpus quam vestimentum?"},
+        {"verse":"26", "start":"251.4", "end": "267.3", "text":"Respicite volatilia caeli, quoniam non serunt neque metunt neque congregant in horrea, et Pater vester caelestis pascit illa. Nonne vos magis pluris estis illis?"},
+        {"verse":"27", "start":"267.3", "end": "273.4", "text":"Quis autem vestrum cogitans potest adicere ad aetatem suam cubitum unum?"},
+        {"verse":"28", "start":"273.5", "end": "281.5", "text":"Et de vestimento quid solliciti estis? Considerate lilia agri quomodo crescunt: non laborant neque nent."},
+        {"verse":"29", "start":"281.8", "end": "289.4", "text":"Dico autem vobis quoniam nec Salomon in omni gloria sua coopertus est sicut unum ex istis."},
+        {"verse":"30", "start":"289", "end": "300.4", "text":"Si autem fenum agri, quod hodie est et cras in clibanum mittitur, Deus sic vestit, quanto magis vos, modicae fidei?"},
+        {"verse":"31", "start":"300.4", "end": "307.8", "text":"Nolite ergo solliciti esse dicentes: \"Quid manducabimus?\", aut: \"Quid bibemus?\", aut: \"Quo operiemur?\"."},
+        {"verse":"32", "start":"307.8", "end": "316.9", "text":"Haec enim omnia gentes inquirunt; scit enim Pater vester caelestis quia his omnibus indigetis."},
+        {"verse":"33", "start":"316.6", "end": "324.3", "text":"Quaerite autem primum regnum Dei et iustitiam eius, et haec omnia adicientur vobis."},
+        {"verse":"34", "start":"324.3", "end": "335", "text":"Nolite ergo esse solliciti in crastinum; crastinus enim dies sollicitus erit sibi ipse. Sufficit diei malitia sua."}
+      ]}
       ]
     }
   ];
